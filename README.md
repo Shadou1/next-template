@@ -26,14 +26,15 @@ Use created CSS files to declare your base styles, component styles, and fonts. 
 You don't have to follow these guidelines exactly.
 
 ```
-├── features
-│   └── feature
-│       ├── feature.ts - "Feature code (hooks)"
-│       ├── Feature.tsx - "Main React component"
-│       ├── types.ts - "TypeScript Types"
-│       ├── featureAPI.ts - "API (GET, POST) functions of this feature"
-│       └── sub-feature
-│           └── "Other related features"
+├── lib
+│   └── features
+│       └── feature
+│           ├── feature.ts - "Feature code (hooks)"
+│           ├── Feature.tsx - "Main React component"
+│           ├── types.ts - "TypeScript Types"
+│           ├── featureAPI.ts - "API (GET, POST) functions of this feature"
+│           └── sub-feature
+│               └── "Other related features"
 ├── pages
 │   ├── api
 │   │   └── "API routes"

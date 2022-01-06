@@ -1,34 +1,50 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js + Tailwind Template
 
-## Getting Started
+## Features
 
-First, run the development server:
+Next.js Template with essential (according to [creditable* sources](https://github.com/Shadou1)) packages to start developing.
 
-```bash
-npm run dev
-# or
-yarn dev
+### Core
+- [Next.js](https://nextjs.org/) - React fullstack framework.
+- [Tailwind](https://tailwindcss.com/) - Utility-first CSS framework.
+- [Typescript](https://www.typescriptlang.org/) - For sane Javascript development.
+- [SWR](https://swr.vercel.app/) - Server-state management.
+
+### Linting
+- [ESLint](https://eslint.org/) with [TypeScript ESLint](https://github.com/typescript-eslint/typescript-eslint).
+
+### Other packages
+- [React Hook Form](https://react-hook-form.com/) - Painless form management.
+- [Tabler Icons](https://github.com/tabler/tabler-icons) - High-quality SVG icons.
+
+## About this template
+
+Use created CSS files to declare your base styles, component styles, and fonts. SWR is used to manage server-state easily and efficiently. React Hook Form simplifies form management.
+
+### Project structure
+
+You don't have to follow these guidelines exactly.
+
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+├── features
+│   └── feature
+│       ├── feature.ts - "Feature code (hooks)"
+│       ├── Feature.tsx - "Main React component"
+│       ├── types.ts - "TypeScript Types"
+│       ├── featureAPI.ts - "API (GET, POST) functions of this feature"
+│       └── sub-feature
+│           └── "Other related features"
+├── pages
+│   ├── api
+│   │   └── "API routes"
+│   ├── _app.tsx
+│   ├── index.tsx
+│   └── "Other pages"
+├── styles
+│   ├── base.css
+│   ├── components.css
+│   ├── fonts.css
+│   └── globals.css - "All other css files are imported (postcss-import plugin) here"
+├── assets
+│   └── "Static assets (fonts, images)"
+```

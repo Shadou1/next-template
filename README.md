@@ -46,5 +46,6 @@ You don't have to follow these guidelines exactly.
 │   ├── fonts.css
 │   └── globals.css - "All other css files are imported (postcss-import plugin) here"
 ├── assets
-│   └── "Static assets (fonts, images)"
+│   ├── fonts
+│   └── "Other static assets (images, icons)"
 ```

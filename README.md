@@ -1,4 +1,4 @@
-# Next.js + Tailwind Template
+# Next.js Template
 
 ## Features
 
@@ -6,8 +6,8 @@ Next.js Template with essential (according to [creditable* sources](https://gith
 
 ### Core
 - [Next.js](https://nextjs.org/) - React fullstack framework.
-- [Tailwind](https://tailwindcss.com/) - Utility-first CSS framework.
 - [Typescript](https://www.typescriptlang.org/) - For sane Javascript development.
+- [Tailwind](https://tailwindcss.com/) - Utility-first CSS framework.
 - [SWR](https://swr.vercel.app/) - Server-state management.
 
 ### Linting
